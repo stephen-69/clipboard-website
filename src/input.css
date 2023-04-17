@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body {
+    background-image: url(../img/bg-header-desktop.png);
+    background-repeat:no-repeat ;
+    background-size: contain;
+}
+
+.section-container{
+    @apply max-w-6xl mx-auto text-center px-10;
+}
